@@ -4,7 +4,6 @@
     <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Назва All users Page змінює колір">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsersComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsersComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607190802905</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Назва All users Page змінює колір">
+      <created>1607193514207</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607193514207</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Назва All users Page змінює колір">
+      <created>1607193898693</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607193898693</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -10,7 +10,6 @@ class AllUsersComponent extends Component {
     // flag = false
     // classState = 'one';
 flag = false;
-
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/users ')
             .then(value => value.json())
@@ -18,7 +17,6 @@ flag = false;
                 this.setState({users: usersFromAPI})
             });
     }
-
     changeColor = ()=>{
         // console.log("...");
         // if(this.flag){
@@ -35,20 +33,13 @@ flag = false;
             this.setState({classState: 'two'});
         }
         this.flag = !this.flag;
-
     };
     render() {
         let {users,classState} = this.state;
-
 // console.log(this.state)
-
-
         return (
             <div>
                 <h1 onClick={this.changeColor} className={classState}>All Users Page</h1>
-
-
-
                 {
             users.map(value => (<UserComponent
                 item={value} key={value.id}/>))
