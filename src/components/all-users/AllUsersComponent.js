@@ -19,7 +19,7 @@ flag = false;
             });
     }
 
-    changeColor= ()=>{
+    changeColor = ()=>{
         // console.log("...");
         // if(this.flag){
         //     this.classState = 'one'
@@ -45,7 +45,7 @@ flag = false;
         return (
             <div>
                 <h1 onClick={this.changeColor} className={classState}>All Users Page</h1>
-                    {/*// className={this.state.classState} - після диструктуризації можна записати без this*/}
+
 
 
                 {

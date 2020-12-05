@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Вивели на екран всіх користувачів">
-      <change afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.css" afterDir="false" />
+    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Назва All users Page змінює колір">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsersComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsersComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/UserComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/UserComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607186926630</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Назва All users Page змінює колір">
+      <created>1607190802905</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607190802905</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +132,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="fetch users setState state" />
     <MESSAGE value="Вивели на екран всіх користувачів" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вивели на екран всіх користувачів" />
+    <MESSAGE value="Назва All users Page змінює колір" />
+    <option name="LAST_COMMIT_MESSAGE" value="Назва All users Page змінює колір" />
   </component>
 </project>
