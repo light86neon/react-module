@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 
 class UserComponent extends Component {
-
-
     render() {
 
         let {item} = this.props;

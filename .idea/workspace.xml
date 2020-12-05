@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="fetch users setState state" />
+    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Вивели на екран всіх користувачів">
+      <change afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsersComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsersComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/UserComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/UserComponent.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,6 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607186218081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Вивели на екран всіх користувачів">
+      <created>1607186926630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607186926630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +126,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="second" />
     <MESSAGE value="fetch users setState state" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetch users setState state" />
+    <MESSAGE value="Вивели на екран всіх користувачів" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вивели на екран всіх користувачів" />
   </component>
 </project>
