@@ -7,7 +7,7 @@ class UsersComponent extends Component {
     render() {
         return (
             <div>
-                <h1>Hello Users Component</h1>
+                <h1 style={{color:"grey"}}>Hello Users Component</h1>
             </div>
         );
     }
