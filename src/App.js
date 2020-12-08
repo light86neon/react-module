@@ -84,12 +84,15 @@ class App extends Component {
     ];
 
     render() {
+        const alignCenter = {
+            "text-align" : "center"
+        }
         return (
-            <div>
+            <div style={alignCenter}>
                 <UsersComponent/>
                 {
-                    this.usersWithAddress.map(user => (<h4>{user.name} - {user.age} -
-                        {user.status.toString()} </h4>))
+                    this.usersWithAddress.map(user => (<h6>{user.name} - {user.age} -
+                        {user.status.toString()} </h6>))
                 }
             </div>
         );
