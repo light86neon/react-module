@@ -85,7 +85,7 @@ class App extends Component {
 
     render() {
         const alignCenter = {
-            "text-align" : "center"
+            textAlign : "center"
         }
         return (
             <div style={alignCenter}>
