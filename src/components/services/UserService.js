@@ -6,6 +6,4 @@ export class UserService{
             .then(value => value.json())
 
     }
-
-
 }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {PostService} from "../services/PostService";
-import Post from "../post/Post"
+import {CommentService} from "../services/CommentService";
+import Comment from "../comment/Comment";
 import {
     BrowserRouter as Router,
     Switch,
@@ -10,23 +10,25 @@ import {
 } from "react-router-dom";
 
 
-class AllPosts extends Component {
-    state = {posts: []}
-    postService = new PostService();
+class AllComments extends Component {
+
+    state = {comments: []}
+
+    commentService = new CommentService();
 
     async componentDidMount() {
-      let posts =  await this.postService.getAllPosts();
-      this.setState({posts});
+        let comments =  await this.commentService.getAllComments();
+        this.setState({comments})
     }
 
     render() {
-        let {posts} = this.state;
+        let {comments} = this.state;
         return (
             <div>
-                {posts.map(post => <Post key={post.id} item={post}/>)}
+                {comments.map(value => <Comment key={value.id} item={value}/>)}
                 <div className={'switchColor'}>
                     <Switch>
-                        <Route path={'/posts/:id'} render ={(props)=> {
+                        <Route path={'/comments/:id'} render ={(props)=> {
                             console.log(props);
                             return ('tra-ta-ta')
                         }}/>
@@ -37,4 +39,4 @@ class AllPosts extends Component {
     }
 }
 
-export default AllPosts;
+export default AllComments;

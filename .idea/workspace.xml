@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Lesson 4">
-      <change afterPath="$PROJECT_DIR$/src/components/all-users/AllUser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/all-comments/AllComments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/CommentService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +21,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ClassWork4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,7 +87,7 @@
       <workItem from="1607157959185" duration="504000" />
       <workItem from="1607159182733" duration="329000" />
       <workItem from="1607460394626" duration="768000" />
-      <workItem from="1607505546999" duration="8736000" />
+      <workItem from="1607505546999" duration="11521000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1607159275514</created>
@@ -112,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607511813774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson 4">
+      <created>1607514545232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607514545232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

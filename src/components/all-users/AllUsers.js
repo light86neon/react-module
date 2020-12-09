@@ -15,6 +15,7 @@ class AllUsers extends Component {
     state ={users: []}
 
     userService =new UserService();
+
     async componentDidMount() {
         let users = await this.userService.getAllUsers();
         this.setState({users})
