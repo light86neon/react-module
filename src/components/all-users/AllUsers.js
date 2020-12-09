@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
 import {UserService} from "../services/UserService";
 import User from "../user/User";
+import './AllUser.css'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    withRouter
+} from "react-router-dom";
 
 class AllUsers extends Component {
 
@@ -16,8 +24,15 @@ class AllUsers extends Component {
         let {users} = this.state;
         return (
             <div>
-                {users.map(value => <User key={value.id} item={value} />)}
-
+                {users.map(value => <User key={value.id} item={value}/>)}
+                <div className={'switchColor'}>
+                    <Switch>
+                        <Route path={'/users/:id'} render ={(props)=> {
+                            console.log(props);
+                            return ('asdsad')
+                        }}/>
+                    </Switch>
+                </div>
             </div>
         );
     }
