@@ -17,6 +17,7 @@ class AllUsers extends Component {
         return (
             <div>
                 {users.map(value => <User key={value.id} item={value} />)}
+
             </div>
         );
     }
