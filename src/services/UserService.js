@@ -10,4 +10,4 @@ export default class UserService {
     async user(id) {
        return await  fetch (this.url + `/${id}`.then(value => value.json()));
     }
-}
+};

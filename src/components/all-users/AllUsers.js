@@ -16,6 +16,7 @@ class AllUsers extends Component {
     state = {users : []};
 
     async componentDidMount() {
+        let {match : {params: {id}}} = this.props;
         let users = await this.userService.users();
         this.setState({users});
     }
@@ -32,10 +33,10 @@ class AllUsers extends Component {
                 <hr/>
                 <Switch>
                     <Route path={url + '/:id'} render={(props)=> {
-                        let {match : {params: {id}}}= props;
-                    return <FullUser id = {id} key = {id}/>;
+                        const {match:{params:{id}}} = props;
+                    return <FullUser {...props} key = {id}/>;
                     }}/>
-                    }
+
                 </Switch>
             </div>
         );
