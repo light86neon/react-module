@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="consultation user and posts">
-      <change afterPath="$PROJECT_DIR$/src/components/posts/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="consultation user and post full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/full-user/FullUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/full-user/FullUser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <updated>1607157956669</updated>
       <workItem from="1607157959185" duration="504000" />
       <workItem from="1607159182733" duration="329000" />
-      <workItem from="1607865643675" duration="9758000" />
+      <workItem from="1607865643675" duration="10942000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1607159275514</created>
@@ -103,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607874787138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="consultation user and post full">
+      <created>1607877761242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607877761242</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +129,8 @@
     <MESSAGE value="second" />
     <MESSAGE value="ClassWork 5" />
     <MESSAGE value="consultation user and posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="consultation user and posts" />
+    <MESSAGE value="consultation user and post full" />
+    <option name="LAST_COMMIT_MESSAGE" value="consultation user and post full" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
