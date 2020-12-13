@@ -1,27 +1,54 @@
 import React, {Component} from 'react';
 import UserService from "../../services/UserService";
+import {
+  BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    withRouter
+} from "react-router-dom";
+
 
 class FullUser extends Component {
 
-    state = {users: null};
+
     userService = new UserService();
+    state = {users: null};
+
 
     async componentDidMount() {
-
-        let {id} = this.props;
-        let user = await this.userService.user(id);
+        const {userId} = this.props;
+        const user = await this.userService.user(userId);
         this.setState({user});
     }
 
     render() {
 
-        let {user} = this.state;
+        const {user} = this.state;
+        const {match : {url}} = this.props;
+
+
         return (
             <div>
-                    {user &&  <div>{user.id} - {user.name} - {user.username} - {user.email}</div>}
+                 {user &&
+            <div>{user.id} - {user.name} - {user.username} - {user.email} -
+                <Link to={url + '/posts'}>show user posts</Link>
+            </div>}
+              <hr />
+                <Switch>
+                    <Route path={'/users/:id/posts'} render={() => {
+                        console.log('adasd');
+                        return 'ccccc'
+                    }
+
+                    } />
+
+
+                </Switch>
+                <hr />
             </div>
         );
     }
 }
 
-export default FullUser;
+export default withRouter (FullUser);

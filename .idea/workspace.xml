@@ -4,8 +4,10 @@
     <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="ClassWork 5">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/full-user/FullUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/full-user/FullUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +23,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="classWork5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lEMluSbwpWsystzuara5rDG6tl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,6 +75,7 @@
       <updated>1607157956669</updated>
       <workItem from="1607157959185" duration="504000" />
       <workItem from="1607159182733" duration="329000" />
+      <workItem from="1607865643675" duration="6791000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1607159275514</created>
