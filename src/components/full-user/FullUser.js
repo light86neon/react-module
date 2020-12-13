@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import UserService from "../../services/UserService";
+import Posts from "../posts/Posts";
 import {
   BrowserRouter as Router,
     Switch,
@@ -7,6 +8,7 @@ import {
     Link,
     withRouter
 } from "react-router-dom";
+
 
 
 class FullUser extends Component {
@@ -25,7 +27,7 @@ class FullUser extends Component {
     render() {
 
         const {user} = this.state;
-        const {match : {url}} = this.props;
+        const {match : {url}, userId} = this.props;
 
 
         return (
@@ -37,8 +39,8 @@ class FullUser extends Component {
               <hr />
                 <Switch>
                     <Route path={'/users/:id/posts'} render={() => {
-                        console.log('adasd');
-                        return 'ccccc'
+
+                        return <Posts userId ={userId} key ={userId}/>;
                     }
 
                     } />

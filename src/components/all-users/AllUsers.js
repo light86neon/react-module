@@ -3,6 +3,7 @@ import User from "../user/User";
 import UserService from "../../services/UserService";
 import {Route, Switch, withRouter} from "react-router-dom";
 import FullUser from "../full-user/FullUser";
+
 class AllUsers extends Component {
 
     userService = new UserService();
