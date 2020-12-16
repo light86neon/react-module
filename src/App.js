@@ -92,7 +92,7 @@ class App extends Component {
                 <UsersComponent/>
                 {
                     this.usersWithAddress.map(user => (<h6>{user.name} - {user.age} -
-                        {user.status.toString()} </h6>))
+                        {user.status.toString()} - {user.address.city} - {user.address.street}-{user.address.number}</h6>))
                 }
             </div>
         );
