@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Lesson 4">
-      <change afterPath="$PROJECT_DIR$/src/components/all-comments/AllComments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment/Comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/CommentService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ClassWork4" />
+        <entry key="$PROJECT_DIR$" value="homework2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lEMluSbwpWsystzuara5rDG6tl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -149,5 +143,9 @@
     <MESSAGE value="Switch Route" />
     <MESSAGE value="Lesson 4" />
     <option name="LAST_COMMIT_MESSAGE" value="Lesson 4" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
