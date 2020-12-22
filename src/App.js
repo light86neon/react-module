@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useMemo, useReducer, useState } from "react";
 import "./style.css";
 
-export default function App({initialCounter}){
+export default function App(){
  const [counter,setCounter] = useState(0);
 
  const onClickHandler = () => {
@@ -11,7 +11,7 @@ setCounter( counter +1);
  setCounter( counter - 1)
  }
  const onClickResetHandler = () => {
-setCounter(initialCounter = 0)
+     setCounter( (prevState)=> prevState = 0 );
  }
 
     return(
