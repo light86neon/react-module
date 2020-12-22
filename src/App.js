@@ -1,17 +1,26 @@
-import React, {Component} from 'react';
-import AllUsersComponent from "./components/all-users/AllUsersComponent";
+import React, { memo, useEffect, useMemo, useReducer, useState } from "react";
+import "./style.css";
 
-class App extends Component {
+export default function App({initialCounter}){
+ const [counter,setCounter] = useState(0);
 
-    render() {
-        //mistake console.log(this.users)
-        return (
-            <div>
-                <AllUsersComponent/>
+ const onClickHandler = () => {
+setCounter( counter +1);
+ }
+ const onDecClickHandler = () => {
+ setCounter( counter - 1)
+ }
+ const onClickResetHandler = () => {
+setCounter(initialCounter = 0)
+ }
 
-            </div>
-        );
-    }
+    return(
+        <div>
+            <button onClick={onClickHandler}>Додати</button>
+            <button onClick={onClickResetHandler}>reset</button>
+            <button onClick={onDecClickHandler}>Відняти </button>
+            <h1>Helo sandbox {counter}</h1>
+            <h2>Start aditing to see some magic</h2>
+        </div>
+    )
 }
-
-export default App;
