@@ -4,4 +4,8 @@
     box-shadow: 2px 2px 1px #eee;
     padding: 10px;
     margin-right: 10px;
+
+}
+p, h3{
+    text-align: center;
 }
