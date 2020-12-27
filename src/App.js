@@ -22,11 +22,33 @@ class App extends Component {
         })
     }
 
-    changeTitleHandler = pageTitle =>{
-    this.setState({
-                      pageTitle
-                  })
+    deleteHandler(index){
+       const cars = this.state.cars.concat()
+
+        cars.splice(index,1)
+
+        this.setState({
+           cars
+        })
+
     }
+
+    onChangeName(name, index) {
+        console.log(name, index)
+        const car = this.state.cars[index]
+        car.name = name
+
+        // const cars = this.state.cars.concat()
+        const cars = [...this.state.cars.concat()]
+
+        cars[index] = car
+
+        this.setState ({
+            cars: cars
+        })
+
+    }
+
     render() {
         const divStyle = {
             textAlign: 'center'
@@ -40,7 +62,8 @@ class App extends Component {
                         key={index}
                         name={car.name}
                         year={car.year}
-                        onChangeTitle={() => this.changeTitleHandler(car.name)
+                        onDelete={this.deleteHandler.bind(this, index)}
+                        onChangeName={event => this.onChangeName(event.target.value, index)
                         }
                     />
                 )
@@ -53,8 +76,13 @@ class App extends Component {
                 <button
                     onClick={this.toggleCarsHandler}
                 >Toggle Cars </button>
-
-                {cars}
+                <div style={{
+                    width: 400,
+                    margin: 'auto',
+                    paddingTop:'20px'
+                }}>
+                    {cars}
+                </div>
 
 
             </div>
