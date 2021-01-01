@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Lesson 4">
-      <change afterPath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/full-post/FullPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/PostService.js" afterDir="false" />
+    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="Lesson 4 posts and users">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/full-user/FullUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/full-user/FullUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/full-post/FullPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/full-post/FullPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607159503472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson 4 posts and users">
+      <created>1609539546837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609539546837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="Lesson 4 posts and users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4 posts and users" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

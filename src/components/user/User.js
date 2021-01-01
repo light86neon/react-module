@@ -9,6 +9,7 @@ class User extends Component {
             <div>
                 {/*{item.id}-{item.name} - <Link to={`${url} /${item. Id}`}>user details</Link>*/}
                 {item.id}-{item.name} - <Link to={url + '/' + item.id}>user details</Link>
+                <hr/>
             </div>
         );
     }

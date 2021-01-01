@@ -8,7 +8,7 @@ class Post extends Component {
 
         return (
             <div>
-                {item.id} - {item.body} - <Link to = {url + '/' + item.id}>post details</Link>
+                {item.id} - {'Пост: '}{item.id} - <Link to = {url + '/' + item.id}>post details</Link>
             <hr/>
             </div>
         );
