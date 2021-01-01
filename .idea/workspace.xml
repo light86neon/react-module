@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="add comment">
-      <change afterPath="$PROJECT_DIR$/src/components/all-comments/AllComments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/all-comments/AllComments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/all-posts/AllPosts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/all-posts/AllPostsComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment/CommentComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post/PostComponent.js" afterDir="false" />
+    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="some correct">
+      <change afterPath="$PROJECT_DIR$/src/components/services/CommentServices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/PostServices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/all-comments/AllComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-comments/AllComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/all-posts/AllPostsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-posts/AllPostsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/PostComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="classwork2" />
+        <entry key="$PROJECT_DIR$" value="homework2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

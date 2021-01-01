@@ -7,7 +7,7 @@ class PostComponent extends Component {
         return (
             <div>
                 {status || <>{item.id} - {item.title}</>}
-                {status && <>{item.id} -{item.body}</>}
+                {status && <>{item.id} - {item.body}</>}
                 <button onClick={()=> selectThisPost(item.id)}>choose post</button>
             </div>
         );
