@@ -4,7 +4,8 @@ import UserService from '../../services/UserService';
 class FullUser extends Component {
 
 
-    state = {user:null};
+    state = {user: null};
+
     userService = new UserService();
 
     async componentDidMount() {
