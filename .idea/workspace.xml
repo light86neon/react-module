@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="test &#10;operator work">
-      <change afterPath="$PROJECT_DIR$/src/components/service/UserService.js" afterDir="false" />
+    <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="homework6">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cars/Cars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cars/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service/UserService.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework5" />
+        <entry key="$PROJECT_DIR$" value="homework6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609033300828</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework6">
+      <created>1609615770159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609615770159</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +139,8 @@
     <MESSAGE value="second" />
     <MESSAGE value="test" />
     <MESSAGE value="test &#10;operator work" />
-    <option name="LAST_COMMIT_MESSAGE" value="test &#10;operator work" />
+    <MESSAGE value="homework6" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
