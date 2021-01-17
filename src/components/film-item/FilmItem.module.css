@@ -1,0 +1,9 @@
+.filmItem {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.itemWrapper {
+    width: 30%;
+}

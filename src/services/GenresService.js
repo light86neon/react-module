@@ -1,9 +1,9 @@
 import { AXIOS } from "./axiosConfig";
 
 
-class MoviesService {
-    async getMovies() {
-        const { data } = await AXIOS.get('./discover/movie')
+class GenresService {
+    async getMGenres() {
+        const { data } = await AXIOS.get('/genre/movie/list')
         // throw new Error('bad work');
         return data
     }
@@ -13,4 +13,6 @@ class MoviesService {
     }
 }
 
-export const moviesService = new MoviesService();
+export const genresService = new GenresService();
+
+

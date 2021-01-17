@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27e852d-7532-46e1-bccf-594e164cedad" name="Default Changelist" comment="1-st part">
-      <change afterPath="$PROJECT_DIR$/src/components/film-item/FilmItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/film-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/film-list/FilmList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/film-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/BaseLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/BaseLayout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/film-item/FilmItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/film-list/FilmList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movie-details/MovieDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movie-details/MovieDetails.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movie-details/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GenresService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/film-item/FilmItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/film-item/FilmItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/film-list/FilmList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/film-list/FilmList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/BaseLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/BaseLayout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/MoviesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/MoviesService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,18 +66,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JS2020\WebstormProjects\reactmain\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JS2020\WebstormProjects\reactmain\src\pages\home" />
+      <recent name="C:\Users\JS2020\WebstormProjects\reactmain\src\pages" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -100,6 +111,9 @@
       <workItem from="1607157959185" duration="504000" />
       <workItem from="1607159182733" duration="329000" />
       <workItem from="1610750272400" duration="5500000" />
+      <workItem from="1610829060862" duration="2224000" />
+      <workItem from="1610867672313" duration="6684000" />
+      <workItem from="1610901961179" duration="11200000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1607159275514</created>

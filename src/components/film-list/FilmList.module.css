@@ -1,0 +1,9 @@
+.listWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemWrapper {
+    width: 30%;
+    height: 100%;
+}
